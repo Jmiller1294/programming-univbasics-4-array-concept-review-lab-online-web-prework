@@ -13,7 +13,7 @@ def find_max_value(array)
   x = 0
   array.length.times do |count|
     if array[count] > x
-    return count
+    return x
   end
   end
     
