@@ -10,9 +10,9 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  x = 0
+  x = array.max
   array.length.times do |count|
-    if array[count] > x
+    if array[count] == x
     x = array[count]
     end
   end
