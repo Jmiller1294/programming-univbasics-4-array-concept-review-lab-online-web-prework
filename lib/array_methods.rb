@@ -11,7 +11,7 @@ end
 def find_max_value(array)
   # Add your solution here
   array.length.times do |count|
-    if array[count]== array.max(count)
+    if array.max(count)
     return count
   end
   end
